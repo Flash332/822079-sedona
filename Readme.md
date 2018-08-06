@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Матвей Ульянов](https://up.htmlacademy.ru/htmlcss/22/user/822079).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga)
 
 ---
 
