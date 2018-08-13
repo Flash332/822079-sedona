@@ -5,16 +5,16 @@
 	<title>Каталог гостиниц</title>
 </head>
 <body>
-	<header>
+	<header class="header">
   		<nav class="main-navigation">
-  		<p><a class="logo">
-  			<img src="index.html" alt="Логотип">
-		</a></p>
-		<ul>
-			<li><a href="#" class="info">Информация</a></li>
-			<li><a href="#" class="gallery">Фото и Видео</a></li>
-			<li><a href="#" class="map-nav">Карта штата</a></li>
-			<li><a href="#" class="hotels current">Гостиницы</a></li>
+  		<a href="index.html" class="logo">
+  			<img src="img/logo.png" alt="Логотип">
+		  </a>
+		<ul class="menu">
+			<li><a href="#">Информация</a></li>
+			<li><a href="#">Фото и Видео</a></li>
+			<li><a href="#">Карта штата</a></li>
+			<li><a href="#">Гостиницы</a></li>
 		</ul>
 		</nav>
 
@@ -25,51 +25,74 @@
   		</div>
   		<div class="sorting"><!--десь будет сортировка-->
   		</div>
-  		<section catalog>
-  			<h2 class="visuality-hidden">Список гостиниц</h2>
-  			<ul catalog-list>
-  				<li class="catalog-item">
-  					<h3><a href="#">Amara resort & spa</a></h3>
-  					<p><a href="#"><img src="#" alt="Amara resort & spa"></a></p>
+  		<section class="catalog">
+  			<h2 class="visuality-hidden">Список гостиниц седоны</h2>
+  			<ul class="catalog-list">
+  				
+          <li class="catalog-item">
+  					<div>
+              <a><img src="#" alt="Amara resort & spa"></a>     
+            </div>
+            <div>
+              <h3><a href="#">Amara resort & spa</a></h3>
   						<b>Гостиница</b>
   						<b>от 4000 Р.</b>
-  					<a href="#" class="button-more-info">подробнее</a>
-  					<a href="#"class="buy">забронировать</a>
-  					<p>рейтинг: 8,5</p>
+  					  <a href="#" class="button-more-info">подробнее</a>
+  					  <a href="#" class="buy">забронировать</a>
+            </div>
+            <div>
+              <!--здесь будут звезды-->
+  					  <p>рейтинг: 8,5</p>
+            </div>
   				</li>
-  				<li class="catalog-item">
-  					<h3><a href=#">Desert quail inn</a></h3>
-  					<p><a href="#"><img src="#" alt="Desert quail inn"></a></p>
-  						<b>Мотель</b>
-  						<b>от 3000 Р.</b>
-  					<a href="#" class="button-more-info">подробнее</a>
-  					<a href="#"class="buy">забронировать</a>
-  					<p>рейтинг: 8,9</p>
-  				</li>
-  				<li class="catalog-item">
-  					<h3><a href="#">Villas at poco diablo</a></h3>
-  					<p><a href="#"><img src="#" alt="Villas at poco diablo"></a></p>
-  						<b>Апартаменты</b>
-  						<b>от 2000 Р.</b>
-  					<a href="#" class="button-more-info">подробнее</a>
-  					<a href="#"class="buy">забронировать</a>
-  					<p>рейтинг: 9,2</p>
-  				</li>
-  			</ul>
 
+          <li class="catalog-item">
+            <div>
+              <a><img src="#" alt="Desert quail inn"></a>     
+            </div>
+            <div>
+              <h3><a href="#">Desert quail inn</a></h3>
+              <b>Мотель</b>
+              <b>от 3000 Р.</b>
+              <a href="#" class="button-more-info">подробнее</a>
+              <a href="#" class="buy">забронировать</a>
+            </div>
+            <div>
+              <!--здесь будут звезды-->
+              <p>рейтинг: 8,9</p>
+            </div>
+          </li>
+
+          <li class="catalog-item">
+            <div>
+              <a><img src="#" alt="Villas at poco diablo"></a>     
+            </div>
+            <div>
+              <h3><a href="#">Villas at poco diablo</a></h3>
+              <b>Апартаменты</b>
+              <b>от 2000 Р.</b>
+              <a href="#" class="button-more-info">подробнее</a>
+              <a href="#" class="buy">забронировать</a>
+            </div>
+            <div>
+              <!--здесь будут звезды-->
+              <p>рейтинг: 9,2</p>
+            </div>
+          </li>
+        </ul>
 		</section>
   	</main>
-  	<footer>
-  		<p>#visitsedona</p>
-  		<div class="social">
-  			<ul>
+  	<footer class="footer">
+  		<p class="visitsedona">#visitsedona</p>
+  			<ul class="social">
   				<li class="twitter"><a href="#">twitter</a></li>
   				<li class="facebook"><a href="#">facebook</a></li>
   				<li class="youtube"><a href="#">youtube</a></li>
   			</ul>
-		</div>
 
-		<a href="#" class="bnt copyright"><img src="#" alt="Разработчик"></a>
+		<p class="by">Web site by
+      <a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
+    </p>
   	</footer>
 	
 </body>

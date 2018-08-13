@@ -5,85 +5,102 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-  	<header>
+  	<header class="header">
   		<nav class="main-navigation">
   		<p><a class="logo">
-  			<img src="index.html" alt="Логотип">
+  			<img src="img/logo.png" alt="Логотип">
 		</a></p>
-		<ul>
-			<li><a href="#" class="info">Информация</a></li>
-			<li><a href="#" class="gallery">Фото и Видео</a></li>
-			<li><a href="#" class="map-nav">Карта штата</a></li>
-			<li><a href="#" class="hotels">Гостиницы</a></li>
+		<ul class="menu">
+			<li><a href="#">Информация</a></li>
+			<li><a href="#">Фото и Видео</a></li>
+			<li><a href="#">Карта штата</a></li>
+			<li><a href="#">Гостиницы</a></li>
 		</ul>
 		</nav>
-
   	</header>
   	<main>
-  		<h1 class="visuality-hidden">Гостиницы седоны</h1>
-  		<h2>Седона-небольшой городок в аризоне, заслуживающий большего!</h2>
-		<p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
-		<ul>
+  		<div>
+			<img src="img/header.png" alt="Добро пожаловать в Седону">
+			<p class="visuality-hidden">Welcome to gorgeous. Sedona. "Become the Grand Canyon sucks!"</p>
+		</div>
+  		
+  		<div class="">
+  			<h2 class="">Седона-небольшой городок в аризоне, заслуживающий большего!</h2>
+			<p class="causes">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+		</div>
+		<ul class="advantages-list">
 			<li>
-				<div class="advantages-1">
-					<h3>Настоящий городок</h3>
+				<div class="advantages-1 real-town">
+					<h3 class="text-advantages town">Настоящий городок</h3>
+					<p>№1</p>
 					<p>Седона - не аттракцион для туристов, там течет жизнь</p>
-					<img src="#" alt="Фото города">
+					<img class="advantages-1-image" src="#" alt="Фото города">
 				</div>
 				<ul>
-					<li>
-						<h4>Жилье</h4>
+					<li class="advantages-1-1">
+						<h4 class="text-advantages houseroom">Жилье</h4>
 						<p>Рекомендуем пожить в настоящем мотеле, как в кино!</p>
 					</li>
-					<li>
-						<h4>Еда</h4>
+					<li class="advantages-1-2">
+						<h4 class="text-advantages food">Еда</h4>
 						<p>Всегда заказывайте фирменый бургер, вы не разочаруетесь!</p>
 					</li>
-					<li>
-						<h4>Сувениры</h4>
+					<li class="advantages-1-3">
+						<h4 class="text-advantages souvenir">Сувениры</h4>
 						<p>Не только китайского, но и местного производства!</p>
 					</li>
 				</ul>
 			</li>
 			<li>
-				<div class="advantages-2">
-					<h3>Там есть мост дьявола</h3>
+				<div class="advantages-2 devil-bridge">
+					<h3 class="text-advantages bridge">Там есть мост дьявола</h3>
+					<p>№2</p>
 					<p>Да, по нему можно пройтись! Если конечно вы осмелитесь</p>
-					<img src="#" alt="Мост дьявола">
+					<img class="advantages-2-image" src="#" alt="Мост дьявола">
 				</div>
 			</li>
-			<li>
-				<h3>Небольшая площадь</h3>
+			<li class="advantages-3">
+				<h3 class="text-advantages">Небольшая площадь</h3>
+				<p>№3</p>
 				<p>Все достопримечательности находятся очень болизко</p>
 			</li>
-			<li>
-				<h3>Красивая дорога</h3>
+			<li class="advantages-4">
+				<h3 class="text-advantages">Красивая дорога</h3>
+				<p>№4</p>
 				<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 			</li>
-			<li>
-				<h3>Мало туристов</h3>
+			<li class="advantages-5">
+				<h3 class="text-advantages">Мало туристов</h3>
+				<p>№5</p>
 				<p>Большенство едет в гранд каньон и толпится там</p>
 			</li>
 		</ul>
 
-		<b>Заинтересовались?</b>
-		<p>Укажите предполагаемые даты поездки, и мы покажем вам лечшие предложения гостиниц  седоне</p>
+		<div class="search-hotel">
+			<b>Заинтересовались?</b>
+			<p>Укажите предполагаемые даты поездки, и мы покажем вам лечшие предложения гостиниц  седоне</p>
+			<span class="search-hotel-form">Поиск гостиницы в седоне</span>
+		</div>
 		<!-- тут будет форма и катра-->
+		<div class="search-hotel-map">
+		</div>
 
 
 
   	</main>
-  	<footer>
-  		<p>#visitsedona</p>
-  		<div class="social">
-  			<ul>
-  				<li class="twitter"><a href="#">twitter</a></li>
-  				<li class="facebook"><a href="#">facebook</a></li>
-  				<li class="youtube"><a href="#">youtube</a></li>
-  			</ul>
-		</div>
+  	<footer class="footer">
+  		<p class="visitsedona">#visitsedona</p>
+  		
+ 		<ul class="social">
+  			<li class="twitter"><a href="#">twitter</a></li>
+  			<li class="facebook"><a href="#">facebook</a></li>
+  			<li class="youtube"><a href="#">youtube</a></li>
+  		</ul>
+		
 
-		<a href="#" class="bnt copyright"><img src="#" alt="Разработчик"></a>
+		<p class="by">Web site by
+			<a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
+		</p>
   	</footer>
 
   </body>
