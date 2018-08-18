@@ -14,7 +14,7 @@
 			<li><a href="#">Информация</a></li>
 			<li><a href="#">Фото и Видео</a></li>
 			<li><a href="#">Карта штата</a></li>
-			<li><a href="#">Гостиницы</a></li>
+			<li><a>Гостиницы</a></li>
 		</ul>
 		</nav>
 
@@ -24,21 +24,28 @@
   		<div class="filter"><!--здесь будет фильтр-->
   		</div>
       <div class="sorting">
+        <p class="sorting-result">Найдено: <span>3</span></p>
         <p>сортировка:</p>
-  		  <ul>
-          <li><a href="#">по цене</a></li>
-          <li><a href="#">по типу</a></li>
-          <li><a href="#">по рейтингу</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-  		  </ul>
+  		  <div class="sorting-type">
+          <ul class="sorting-list">
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по рейтингу</a></li>
+          </ul>
+        </div> 
+        <div class="sorting-ditection">
+          <ul class="sorting-rating"> 
+            <li><a href="#"><span class="visuality-hidden"></span></a></li>
+            <li><a href="#"><span class="visuality-hidden"></span></a></li>
+  		    </ul>
+        </div>
       </div>
   		<section class="catalog">
   			<h2 class="visuality-hidden">Список гостиниц седоны</h2>
   			<ul class="catalog-list">
   				
           <li class="catalog-item">
-              <a href="#"><img src="#" alt="Amara resort & spa"></a>     
+              <a href="#" class="name-hotel"><img src="#" alt="Amara resort & spa"></a>     
             <div class="bio-hotel">
               <h3 class="bio-hotel-name"><a href="#">Amara resort & spa</a></h3>
   						<b class="bio-hotel-room">Гостиница</b>
@@ -53,7 +60,7 @@
   				</li>
 
           <li class="catalog-item">
-              <a href="#"><img src="#" alt="Desert quail inn"></a>
+              <a href="#" class="name-hotel"><img src="#" alt="Desert quail inn"></a>
             <div class="bio-hotel">
               <h3 class="bio-hotel-name"><a href="#">Desert quail inn</a></h3>
               <b class="bio-hotel-room">Мотель</b>
@@ -68,7 +75,7 @@
           </li>
 
           <li class="catalog-item">
-              <a href="#"><img src="#" alt="Villas at poco diablo"></a> 
+              <a href="#" class="name-hotel"><img src="#" alt="Villas at poco diablo"></a> 
             <div class="bio-hotel">
               <h3 class="bio-hotel-name"><a href="#">Villas at poco diablo</a></h3>
               <b class="bio-hotel-room">Апартаменты</b>
