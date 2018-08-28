@@ -21,7 +21,54 @@
   	</header>
   	<main>
   		<h1 class="visuality-hidden">Гостиницы седоны</h1>
-  		<div class="filter"><!--здесь будет фильтр-->
+  		<div class="filter">
+        <form action="echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            
+            <ul class="infrastructure">
+              <li>
+                <label for="swimming-pool">
+                <input type="checkbox" value="swimming-pool" name="swimming-pool" id="swimming-pool" checked>
+                 бассейн</label>
+              </li>
+              <li>
+                 <label for="parking">
+                 <input type="checkbox" name="parking" value="parking" id="parking">
+                 парковка</label>
+              </li>
+              <li>  
+                 <label for="wifi">
+                 <input type="checkbox" name="wifi" value="wifi" id="wifi">
+                   wi-fi</label>
+              </li>  
+              </ul>   
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья </legend>
+              <ul>
+              <li>  
+                <label for="hotel">
+                <input type="checkbox" name="hotel" id="hotel" checked>
+                Гостиница</label>
+              </li>
+              <li>
+                <label for="motel">
+                  <input type="checkbox" name="motel" id="motel" checked>
+                Мотель</label>
+              </li>
+              <li>
+                <label for="apartments">
+                  <input type="checkbox" name="apartments" id="apartments" checked>
+                Апартаменты</label>  
+              </ul>
+          </fieldset>
+          <div class="range">
+            
+          </div>
+
+
+        </form>
   		</div>
       <div class="sorting">
         <p class="sorting-result">Найдено: <span>3</span></p>

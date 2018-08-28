@@ -81,7 +81,26 @@
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лечшие предложения гостиниц  седоне</p>
 			<span class="search-hotel-form">Поиск гостиницы в седоне</span>
 		</div>
-		<!-- тут будет форма-->
+		<div class="search-hotel-form">
+			<form action="echo.htmlacademy.ru" method="post">
+				<label for="entry">Дата въезда:
+				<input type="date" name="entry" id="entry">
+				</label>
+
+				<label for="departure">Дата выезда:
+				<input type="date" name="departure" id="departure">
+				</label>
+
+				<label for="adult">Взрослые:
+					<input type="number" name="adult" id="adult">
+				</label>
+				
+				<label for="child">Дети:
+					<input type="number" name="child" id="child">
+				</label>
+
+			</form>
+		</div>
 		<div class="search-hotel-map">
 			<img src="img/map.jpg" alt="Карта">
 		</div>
