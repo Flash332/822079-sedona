@@ -79,29 +79,46 @@
 		<div class="search-hotel">
 			<p class="pre-form">Заинтересовались?</p>
 			<p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лечшие предложения гостиниц  седоне</p>
-			<span class="search-hotel-form">Поиск гостиницы в седоне</span>
-		</div>
-		<div class="search-hotel-form">
-			<form action="echo.htmlacademy.ru" method="post">
-				<label for="entry">Дата въезда:
-				<input type="date" name="entry" id="entry">
+			<button class="search-hotel-form">Поиск гостиницы в седоне</button>
+			<form action="echo.htmlacademy.ru" method="post" class="form">
+				<label for="entry" class="form-label">
+					<span class="form-label-text">Дата въезда:</span>
+					<input type="date" name="entry" id="entry" class="form-date">
+					<button class="form-calendar" type="button">
+						<span class="visuality-hidden">Открыть календарь</span>
+					</button>
 				</label>
 
-				<label for="departure">Дата выезда:
-				<input type="date" name="departure" id="departure">
+				<label for="departure" class="form-label">
+					<span class="form-label-text">Дата выезда:</span>
+					<input type="date" name="departure" id="departure" class="form-date">
+					<button class="form-calendar" type="button">
+						<span class="visuality-hidden">Открыть календарь</span>
+					</button>
 				</label>
 
-				<label for="adult">Взрослые:
-					<input type="number" name="adult" id="adult">
+				<label for="adult" class="form-label form-label-short">
+					<span class="form-label-text">Взрослые:</span>
+					<span class="form-counter">
+						<button class="form-counter-btn" type="button">-</button>
+						<input type="number" name="adult" id="adult" class="form-number">
+						<button class="form-counter-btn" type="button">+</button>
+					</span>
 				</label>
 				
-				<label for="child">Дети:
-					<input type="number" name="child" id="child">
+				<label for="child">
+					<span class="form-label-text">Дети:</span>
+					<span class="form-counter">
+						<button class="form-counter-btn" type="button">-</button>
+						<input type="number" name="adult" id="adult" class="form-number">
+						<button class="form-counter-btn" type="button">+</button>
+					</span>
 				</label>
-				<input type="submit" value="Найти">
+				<input type="submit" value="Найти" class="form-btn">
 
 			</form>
 		</div>
+		
 		<div class="search-hotel-map">
 			<img src="img/map.jpg" alt="Карта">
 		</div>
