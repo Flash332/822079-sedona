@@ -64,10 +64,21 @@
               </ul>
           </fieldset>
           <div class="range">
-            <input type="number" class="range-number">
-            <input type="number" class="range-number">
-            <input type="range" min="0" max="3000" step="100">
-            
+            <fieldset class="range-field">
+            <legend>Стоиомсть в сутки (Р):</legend>
+            <div class="range-inner">
+              <label class="range-number">
+                <span class="range-from-to">От</span>
+                <input type="number" class="range-number" name="range-from" value="0">
+              </label>
+              <label class="range-number">
+                <span class="range-from-to">До</span>
+                <input type="number" class="range-number" name="range-to" value="3000">
+              </label>
+            </div>
+            <div class="range-scale"></div>
+              <button type="submit" class="">Показать</button>
+            </fieldset>
           </div>
 
 
