@@ -1,0 +1,166 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	color: #787878;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-navigation {
+	line-height: 26px;
+	color: #000000;
+	background-color: #ffffff;
+	font-weight: 700;
+}
+
+.menu {
+	list-style: none;
+}
+
+.main-navigation a {
+	color: #000000;
+}
+
+.main-header img {
+	height: 510px;
+	width: 100%
+}
+
+.main-header {
+	background-image: url("img/welcome.png");
+}
+
+.menu a:hover {
+	color: #82b3d3;
+}
+
+.menu a:focus {
+	color: #cacaca;
+}
+
+.real-town-list {
+	list-style: none;
+}
+
+.advantages-list {
+	list-style: none;
+}
+
+.consider {
+	text-align: center;
+}
+
+.consider h2 {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.real-town,
+.devil-bridge {
+	background-color: #81b3d2;
+	color: #ffffff;
+	width: 33%;
+	height: 260px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.advantages h3 {
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.search-hotel-form {
+	background-color: #766357;
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+}
+
+.form-btn {
+	background-color: #81b3d2;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+}
+
+
+.search-hotel-form:hover {
+	background-color: #604e44;
+}
+
+.search-hotel-form:focus {
+	background-color: #503e32;
+	color: #938a83;
+}
+
+.form-btn:hover {
+	background-color: #669ebf;
+}
+
+.form-btn:focus {
+	background-color: #5596be;
+	color: #94b8d0;
+}
+
+.form input {
+	font: inherit;
+
+	background-color: #f2f2f2;
+
+	border: 0;
+}
+
+.form input:hover {
+	background-color: #ebebeb;
+}
+
+.form input:focus {
+	background-color: #ffffff;
+}
+
+.visitsedona {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.social {
+	list-style: none;
+	text-align: center;
+}
+
+.main-header img {
+	background-image: url("img/polygon.png");
+	vertical-align: bottom;
+}
+
+div.filter {
+	background-image: url(img/filter-background.jpg);
+	background-color: #7c9ab8;
+	color: #ffffff;
+
+}
+
+.list-section {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: bold;
+}
