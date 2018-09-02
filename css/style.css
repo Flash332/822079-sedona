@@ -5,11 +5,10 @@ html {
 
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
-	font-weight: 400;
 	line-height: 21px;
 	text-transform: uppercase;
 	background-color: #ffffff;
-	color: #787878;
+	color: #333333;
 }
 
 a {
@@ -28,16 +27,12 @@ a {
 }
 
 .main-navigation a {
-	color: #000000;
+	color: rgb(0, 0, 0)
 }
 
 .main-header img {
-	height: 510px;
-	width: 100%
-}
-
-.main-header {
-	background-image: url("img/welcome.png");
+	height: 508px;
+	width: 100%;
 }
 
 .menu a:hover {
@@ -45,7 +40,7 @@ a {
 }
 
 .menu a:focus {
-	color: #cacaca;
+	color: rgba(0, 0, 0, 0.302);
 }
 
 .real-town-list {
@@ -60,22 +55,25 @@ a {
 	text-align: center;
 }
 
-.consider h2 {
+.consider-sedona {
 	font-size: 21px;
 	line-height: 26px;
 }
 
-.real-town,
-.devil-bridge {
-	background-color: #81b3d2;
-	color: #ffffff;
-	width: 33%;
-	height: 260px;
-	text-align: center;
-	vertical-align: middle;
+.consider-causes {
+	line-height: 26px;
 }
 
-.advantages h3 {
+.real-town,
+.devil-bridge { 
+	background-color: #81b3d2;
+	color: #ffffff;
+	width: 33.333333%;
+	min-height: 260px;
+	text-align: center;
+}
+
+.text-advantages {
 	font-size: 21px;
 	line-height: 21px;
 }
@@ -91,40 +89,20 @@ a {
 	border: none;
 }
 
-.form-btn {
-	background-color: #81b3d2;
-	color: #ffffff;
-	text-align: center;
-	vertical-align: middle;
-	text-transform: uppercase;
-	border: none;
-}
-
-
 .search-hotel-form:hover {
 	background-color: #604e44;
 }
 
 .search-hotel-form:focus {
 	background-color: #503e32;
-	color: #938a83;
-}
-
-.form-btn:hover {
-	background-color: #669ebf;
-}
-
-.form-btn:focus {
-	background-color: #5596be;
-	color: #94b8d0;
+	color: rgba(255, 255, 255, 0.302);
 }
 
 .form input {
-	font: inherit;
-
+	font-size: inherit;
 	background-color: #f2f2f2;
-
 	border: 0;
+
 }
 
 .form input:hover {
@@ -133,6 +111,24 @@ a {
 
 .form input:focus {
 	background-color: #ffffff;
+}
+
+.form .form-btn {
+	background-color: #81b3d2;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+}
+
+.form .form-btn:hover {
+	background-color: rgb(102, 158, 192);
+}
+
+.form .form-btn:focus {
+	background-color: #5596be;
+	color: rgba(255, 255, 255, 0.302);
 }
 
 .visitsedona {
@@ -147,16 +143,12 @@ a {
 	text-align: center;
 }
 
-.main-header img {
-	background-image: url("img/polygon.png");
-	vertical-align: bottom;
-}
-
 div.filter {
-	background-image: url(img/filter-background.jpg);
+	background-image: url(../img/filter-background.jpg);
 	background-color: #7c9ab8;
 	color: #ffffff;
-
+	width: 100%;
+	background-repeat: no-repeat;
 }
 
 .list-section {
@@ -164,3 +156,107 @@ div.filter {
 	line-height: 21px;
 	font-weight: bold;
 }
+
+.sorting {
+	font-size: 12px;
+ 	line-height: 18px;
+  	text-align: left;
+  	list-style: none;
+}
+
+.sorting-list a {
+  	color: rgba(0, 0, 0, 0.302);
+  	font-size: inherit;
+  	line-height: inherit;
+  	list-style: none;
+  	text-decoration: underline;
+
+}
+
+.sorting-list a:hover {
+  	color: rgb(129, 179, 210);
+  	text-decoration: underline;
+ 
+}
+
+.sorting-list a:focus {
+	color: #231f20;
+	text-decoration: none;
+}
+
+.sorting-rating {
+	list-style: none;
+}
+
+.sorting-list {
+	list-style: none;
+}
+
+.sorting-result {
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: 700;
+}
+
+.sorting-type p {
+	color: #000000;
+}
+
+.bio-hotel-name a {
+	text-decoration: none;
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.bio-hotel-room,
+.bio-hotel-price {
+	color: #333333;
+	font-size: 400;
+}
+
+.button-more-info,
+.buy {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.button-more-info {
+	background-color: #81b3d2;
+}
+
+.button-more-info:hover {
+	background-color: #669ec0;
+}
+
+.button-more-info:focus {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.302);
+}
+
+.buy {
+	background-color: #766357;
+}
+
+.buy:hover {
+	background-color: #604e43;
+}
+
+.buy:focus {
+	color: rgba(255, 255, 255, 0.302);
+	background-color: #503e33;
+}
+
+.rating-number {
+	background-color: #f2f2f2;
+	color: #666666;
+}
+
+.show {
+	
+	color: #ffffff;
+	border: 2px solid white;
+	background-color: rgba(0, 0, 0, 0);
+}
+
