@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="header">
-  		<nav class="main-navigation">
-  		<a href="index.html" class="logo">
-  			<img src="img/logo.png" alt="Логотип">
-		  </a>
-		<ul class="menu">
-			<li><a href="#">Информация</a></li>
-			<li><a href="#">Фото и Видео</a></li>
-			<li><a href="#">Карта штата</a></li>
-			<li><a>Гостиницы</a></li>
-		</ul>
-		</nav>
-
-  	</header>
+    <header class="header">
+      <nav class="main-navigation">
+      
+      <ul class="menu">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и Видео</a></li>
+        <li><p><a class="logo">
+        <li><a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Логотип">
+         </a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="#">Гостиницы</a></li>
+      </ul>
+    </nav>
   	<main>
   		<h1 class="visuality-hidden">Гостиницы седоны</h1>
   		<div class="filter">
-        <form action="echo.htmlacademy.ru" method="post">
-          <fieldset>
+        <form action="echo.htmlacademy.ru" method="post" class="sorting-filter">
+          <fieldset class="sorting-type">
             <legend class="list-section">Инфраструктура:</legend>
             
             <ul class="form-search-hotel">
@@ -47,7 +47,7 @@
               </li>  
               </ul>   
           </fieldset>
-          <fieldset>
+          <fieldset class="sorting-type">
             <legend class="list-section">Тип жилья </legend>
               <ul class="form-search-hotel">
               <li>  
@@ -83,20 +83,21 @@
               <button type="submit" class="show">Показать</button>
             </fieldset>
           </div>
-
-
-
         </form>
   		</div>
+     
+
       <div class="sorting">
         <p class="sorting-result">Найдено: <span>3</span></p>
-  		  <div class="sorting-type">
+        <div class="sorting-type">
           <p>сортировка:</p>
-          <ul class="sorting-list">
-            <li><a href="#">по цене</a></li>
-            <li><a href="#">по типу</a></li>
-            <li><a href="#">по рейтингу</a></li>
-          </ul>
+          <div class="sorting-type-list">
+            <ul class="sorting-list">
+              <li><a href="#">по цене</a></li>
+              <li><a href="#">по типу</a></li>
+              <li><a href="#">по рейтингу</a></li>
+            </ul>
+          </div>
         </div> 
         <div class="sorting-direction">
           <ul class="sorting-rating"> 
@@ -110,7 +111,7 @@
   			<ul class="catalog-list">
   				
           <li class="catalog-item">
-              <a href="#" class="name-hotel"><img src="img/hotel1.jpg" alt="Amara resort & spa"></a>     
+            <a href="#" class="name-hotel"><img src="img/hotel1.jpg" alt="Amara resort & spa"></a>     
             <div class="bio-hotel">
               <h3 class="bio-hotel-name"><a href="#">Amara resort & spa</a></h3>
   						<b class="bio-hotel-room">Гостиница</b>
@@ -157,17 +158,21 @@
 		</section>
   	</main>
   	<footer class="footer">
-  		<p class="visitsedona">#visitsedona</p>
-  			<ul class="social">
-  				<li class="twitter"><a href="#">twitter</a></li>
-  				<li class="facebook"><a href="#">facebook</a></li>
-  				<li class="youtube"><a href="#">youtube</a></li>
-  			</ul>
+      <div class="footer-content">
+        <p class="visitsedona">#visitsedona</p>
+      
+      <ul class="social">
+          <li class="twitter"><a href="#">twitter</a></li>
+          <li class="facebook"><a href="#">facebook</a></li>
+          <li class="youtube"><a href="#">youtube</a></li>
+        </ul>
+    
 
-		<p class="by">Web site by
-      <a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
-    </p>
-  	</footer>
+      <p class="by">Web site by
+        <a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
+      </p>
+    </div>
+    </footer>
 	
 </body>
 </html>

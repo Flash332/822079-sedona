@@ -68,7 +68,6 @@ a {
 .devil-bridge { 
 	background-color: #81b3d2;
 	color: #ffffff;
-	width: 33.333333%;
 	min-height: 260px;
 	text-align: center;
 }
@@ -76,6 +75,11 @@ a {
 .text-advantages {
 	font-size: 21px;
 	line-height: 21px;
+
+}
+
+.search-hotel {
+	text-align: center;
 }
 
 .search-hotel-form {
@@ -143,12 +147,17 @@ a {
 	text-align: center;
 }
 
-div.filter {
+.filter {
 	background-image: url(../img/filter-background.jpg);
 	background-color: #7c9ab8;
 	color: #ffffff;
 	width: 100%;
 	background-repeat: no-repeat;
+
+}
+
+.form-search-hotel {
+	list-style: none;
 }
 
 .list-section {
@@ -203,11 +212,21 @@ div.filter {
 	color: #000000;
 }
 
-.bio-hotel-name a {
+.catalog-list {
+	list-style: none;
+}
+
+.bio-hotel-name {
 	text-decoration: none;
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
+}
+
+.bio-hotel-name {
+	text-decoration: none;
+	color: inherit;
+	display: block;
 }
 
 .bio-hotel-room,
@@ -257,6 +276,142 @@ div.filter {
 	
 	color: #ffffff;
 	border: 2px solid white;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: transparent;
+}
+
+.post-real-town div {
+	text-align: center;
+}
+
+
+
+
+			/*Сетки */
+
+html,
+body {
+	width: 1200px;
+
+
+
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0;
+	padding: 15px;
+	align-items: center;
+}
+
+.logo {
+	padding: 0;
+	height: 70px;
+	width: 160px;
+	margin-bottom: 0;
+
+}
+
+.advantages-image-1,
+.advantages-image-2 {
+	height: 256px;
+	width: 800px;
+}
+
+.advantages-list li {
+	display: flex;
+}
+	
+.advantages {
+	width: 400px;
+	margin: 0;
+	text-align: center;
+}
+
+
+.real-town-list li {
+	display: flex;
+	width: 400px;
+	margin: 0;
+	text-align: center;
+
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 576px;
+}
+
+.search-hotel-form {
+	margin-bottom: 56px;
+}
+
+.form-label {
+	margin-bottom: 30px;
+}
+
+.form-label-short:last-child {
+	margin-bottom: 56px;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.visitsedona {
+	margin-left: 130px;
+}
+
+.by {
+	margin-right: 100px;
+}
+
+
+.sorting-filter {
+	display: flex;
+
+}
+
+.sorting-type {
+	flex: 1;
+	margin-left: 70px;
+}
+
+.range {
+	flex: 2;
+	margin-left: 320px;
+	margin-right: 73px;
+
+}
+
+.sorting,
+.sorting-type,
+.sorting-type-list ul,
+.sorting-rating {
+	display: flex;
+}
+
+.sorting-type-list {
+	width: 288px;
+
+}
+
+.sorting-list {
+	justify-content: space-between;
+}
+
+.catalog-item {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sorting-result {
+	margin-left: 73px;
+}
+
+.sorting-rating {
+	margin-right: 73px;
 }
 

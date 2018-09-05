@@ -10,12 +10,13 @@
   <body>
   	<header class="header">
   		<nav class="main-navigation">
-  		<p><a class="logo">
-  			<img src="img/logo.png" alt="Логотип">
-			</a></p>
+  		
 			<ul class="menu">
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и Видео</a></li>
+				<li><p><a class="logo">
+  			<img src="img/logo.png" alt="Логотип">
+			</a></p></li>
 				<li><a href="#">Карта штата</a></li>
 				<li><a href="catalog.html">Гостиницы</a></li>
 			</ul>
@@ -39,18 +40,27 @@
 					<p>Седона - не аттракцион для туристов, там течет жизнь</p>
 				</div>
 				<img class="advantages-image-1" src="img/foto-city.jpg" alt="Фото города">
+				
+			</li>
+			<li>
 				<ul class="real-town-list">
 					<li class="post-real-town">
-						<h4 class="text-advantages houseroom">Жилье</h4>
-						<p>Рекомендуем пожить в настоящем мотеле, как в кино!</p>
+						<div>
+							<h4 class="text-advantages houseroom">Жилье</h4>
+							<p>Рекомендуем пожить в настоящем мотеле, как в кино!</p>
+						</div>
 					</li>
 					<li class="post-real-town">
-						<h4 class="text-advantages food">Еда</h4>
-						<p>Всегда заказывайте фирменый бургер, вы не разочаруетесь!</p>
+						<div>
+							<h4 class="text-advantages food">Еда</h4>
+							<p>Всегда заказывайте фирменый бургер, вы не разочаруетесь!</p>
+						</div>
 					</li>
 					<li class="post-real-town">
-						<h4 class="text-advantages souvenir">Сувениры</h4>
-						<p>Не только китайского, но и местного производства!</p>
+						<div>
+							<h4 class="text-advantages souvenir">Сувениры</h4>
+							<p>Не только китайского, но и местного производства!</p>
+						</div>
 					</li>
 				</ul>
 			</li>
@@ -62,20 +72,26 @@
 				</div>
 				<img class="advantages-image-2" src="img/foto-bridge.jpg" alt="Мост дьявола">
 			</li>
-			<li class="advantages">
-				<h3 class="text-advantages">Небольшая площадь</h3>
-				<p class="number">№3</p>
-				<p>Все достопримечательности находятся очень болизко</p>
+			<li>
+				<div class="advantages">
+					<h3 class="text-advantages">Небольшая площадь</h3>
+					<p class="number">№3</p>
+					<p>Все достопримечательности находятся очень близко</p>
+				</div>
 			</li>
-			<li class="advantages">
-				<h3 class="text-advantages">Красивая дорога</h3>
-				<p class="number">№4</p>
-				<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+			<li>
+				<div class="advantages">
+					<h3 class="text-advantages">Красивая дорога</h3>
+					<p class="number">№4</p>
+					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+				</div>
 			</li>
-			<li class="advantages">
-				<h3 class="text-advantages">Мало туристов</h3>
-				<p class="number">№5</p>
-				<p>Большенство едет в гранд каньон и толпится там</p>
+			<li>
+				<div class="advantages">
+					<h3 class="text-advantages">Мало туристов</h3>
+					<p class="number">№5</p>
+					<p>Большенство едет в гранд каньон и толпится там</p>
+				</div>
 			</li>
 		</ul>
 
@@ -109,7 +125,7 @@
 					</span>
 				</label>
 				
-				<label for="child">
+				<label for="child" class="form-label form-label-short">
 					<span class="form-label-text">Дети:</span>
 					<span class="form-counter">
 						<button class="form-counter-btn" type="button">-</button>
@@ -130,18 +146,20 @@
 
   	</main>
   	<footer class="footer">
-  		<p class="visitsedona">#visitsedona</p>
+  		<div class="footer-content">
+  			<p class="visitsedona">#visitsedona</p>
   		
- 		<ul class="social">
-  			<li class="twitter"><a href="#">twitter</a></li>
-  			<li class="facebook"><a href="#">facebook</a></li>
-  			<li class="youtube"><a href="#">youtube</a></li>
-  		</ul>
+ 			<ul class="social">
+  				<li class="twitter"><a href="#">twitter</a></li>
+  				<li class="facebook"><a href="#">facebook</a></li>
+  				<li class="youtube"><a href="#">youtube</a></li>
+  			</ul>
 		
 
-		<p class="by">Web site by
-			<a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
-		</p>
+			<p class="by">Web site by
+				<a href="#" class="bnt copyright"><img src="#" alt="Web site by HTML Academy"></a>
+			</p>
+		</div>
   	</footer>
 
   </body>
